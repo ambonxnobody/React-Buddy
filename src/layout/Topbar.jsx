@@ -5,10 +5,10 @@ function Topbar() {
     return (
         <header className="d-flex flex-wrap align-items-center justify-content-center justify-content-md-between py-3 border-bottom" style={{ paddingLeft: "5rem", paddingRight: "5rem" }}>
             <div className="col-md-3 mb-2 mb-md-0">
-                <a href="/" className="d-flex align-items-center link-body-emphasis text-decoration-none">
+                <Link to={"/"} className="d-flex align-items-center link-body-emphasis text-decoration-none">
                     <img src={buddy} alt="Buddy Image" className="me-2" style={{ height: "32px" }} />
                     <h4 className="fw-bold mb-0">Buddy</h4>
-                </a>
+                </Link>
             </div>
 
             <ul className="nav col-12 col-md-auto mb-2 justify-content-center mb-md-0">
