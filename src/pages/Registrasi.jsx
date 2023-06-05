@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
 import buddy from "../assets/buddy.png";
 import signup from "../assets/signup.png";
+
 function Registrasi() {
 	return (
 		<div>
@@ -23,7 +24,7 @@ function Registrasi() {
 								<span className="fw-bold lh-1 fs-1">Daftar</span>
 								<p className="mb-3">
 									<span style={{ color: "#838383" }}>Udah punya akun?</span>{" "}
-									<Link to="/" className="text-decoration-none fw-bold">
+									<Link to="/login" className="text-decoration-none fw-bold">
 										Masuk Sekarang
 									</Link>
 								</p>
@@ -61,11 +62,11 @@ function Registrasi() {
 											placeholder="Masukkan Kata Sandi"
 										/>
 									</div>
-									<button
+									<Link to={"/"}
 										type="button"
 										className="btn btn-primary block w-100 text-white">
 										Daftar
-									</button>
+									</Link>
 								</form>
 							</div>
 						</div>

@@ -8,9 +8,9 @@ function App() {
 		<div style={{ fontFamily: "Poppins, sans-serif" }}>
 			<BrowserRouter>
 				<Routes>
-					<Route path="/" element={<Login />} />
+					<Route path="/login" element={<Login />} />
 					<Route path="/registrasi" element={<Registrasi />} />
-					<Route path="/profile" element={<Profile />} />
+					<Route path="/" element={<Profile />} />
 				</Routes>
 			</BrowserRouter>
 		</div>

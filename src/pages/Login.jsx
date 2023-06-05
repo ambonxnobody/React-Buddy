@@ -66,11 +66,11 @@ function Login() {
 										Lupa password?
 									</Link>
 								</div>
-								<button
+								<Link to={"/"}
 									type="button"
 									className="btn btn-primary block w-100 text-white">
 									Masuk
-								</button>
+								</Link>
 							</form>
 						</div>
 					</div>
