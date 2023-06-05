@@ -37,7 +37,8 @@ function Profile() {
                     </div>
                 </div>
                 <div className="col-12 col-md-9 mb-5">
-                    <div className="card" style={{ paddingRight: "3rem", paddingLeft: "3rem", paddingTop: "1rem", paddingBottom: "1rem" }}>
+                    <div className="card" style={{ paddingTop: "1rem", paddingBottom: "1rem" }}>
+                        {/* paddingRight: "3rem", paddingLeft: "3rem",  */}
                         <div className="card-header px-5 py-3" style={{ backgroundColor: "white", fontSize: "2rem", fontWeight: "bold" }}>Edit Profile</div>
                         <div className="card-body px-5">
                             <div className="row mb-3">
