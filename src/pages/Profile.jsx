@@ -43,24 +43,24 @@ function Profile() {
                             <div className="row mb-3">
                                 <div className="col-12 col-md-6">
                                     <label htmlFor="exampleFormControlInput1" className="form-label">Nama Lengkap</label>
-                                    <input disabled={!editProfile} type="text" className="form-control" id="exampleFormControlInput1" placeholder={"Ikin Sugiharto"} />
+                                    <input disabled={!editProfile} type="text" className="form-control" id="exampleFormControlInput1" />
                                 </div>
                                 <div className="col-12 col-md-6">
                                     <label htmlFor="exampleFormControlInput1" className="form-label">Email</label>
-                                    <input disabled={!editProfile} type="email" className="form-control" id="exampleFormControlInput1" placeholder={"ikinsugiharto@gmail.com"} />
+                                    <input disabled={!editProfile} type="email" className="form-control" id="exampleFormControlInput1" />
                                 </div>
                             </div>
                             <div className="row mb-3">
                                 <div className="col-12 col-md-6">
                                     <label htmlFor="exampleFormControlInput1" className="form-label">No. Telepon Aktif</label>
-                                    <input disabled={!editProfile} type="text" className="form-control" id="exampleFormControlInput1" placeholder={"0832345678990"} />
+                                    <input disabled={!editProfile} type="text" className="form-control" id="exampleFormControlInput1" />
                                 </div>
                             </div>
                             <div className="row mb-3">
                                 <div className="col-12 col-md-6">
                                     <label htmlFor="exampleFormControlInput1" className="form-label">Kata Sandi</label>
                                     <div style={{ position: 'relative' }}>
-                                        <input disabled={!editProfile} type={showPassword ? 'text' : 'password'} className="form-control" id="exampleFormControlInput1" placeholder={"123456789"} />
+                                        <input disabled={!editProfile} type={showPassword ? 'text' : 'password'} className="form-control" id="exampleFormControlInput1" />
                                         {editProfile ?
                                             <i onClick={togglePassword} className={!showPassword ? "fa-solid fa-eye-slash" : "fa-solid fa-eye"} style={{ position: 'absolute', right: '10px', top: '10px', cursor: 'pointer' }}></i> :
                                             null
@@ -72,7 +72,7 @@ function Profile() {
                                 <div className="col-12 col-md-6">
                                     <label htmlFor="exampleFormControlInput1" className="form-label">Konfirmasi Kata Sandi</label>
                                     <div style={{ position: 'relative' }}>
-                                        <input disabled={!editProfile} type={showConfirmPassword ? "text" : "password"} className="form-control" id="exampleFormControlInput1" placeholder={"123456789"} />
+                                        <input disabled={!editProfile} type={showConfirmPassword ? "text" : "password"} className="form-control" id="exampleFormControlInput1" />
                                         {editProfile ?
                                             <i onClick={toggleConfirmPassword} className={!showConfirmPassword ? "fa-solid fa-eye-slash" : "fa-solid fa-eye"} style={{ position: 'absolute', right: '10px', top: '10px', cursor: 'pointer' }}></i> :
                                             null
