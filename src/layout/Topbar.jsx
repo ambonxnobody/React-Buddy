@@ -25,9 +25,9 @@ function Topbar() {
                     </a>
                     <ul className="dropdown-menu text-small">
                         {/* <li><a style={{ cursor: "pointer" }} className="dropdown-item">New project...</a></li>
-                        <li><a style={{ cursor: "pointer" }} className="dropdown-item">Settings</a></li>
-                        <li><a style={{ cursor: "pointer" }} className="dropdown-item">Profile</a></li>
-                        <li><hr className="dropdown-divider"></hr></li> */}
+                        <li><a style={{ cursor: "pointer" }} className="dropdown-item">Settings</a></li> */}
+                        <li><Link to={"/"} className="dropdown-item">Profil</Link></li>
+                        <li><hr className="dropdown-divider"></hr></li>
                         <li><Link to={"/login"} className="dropdown-item">Keluar</Link></li>
                     </ul>
                 </div>
