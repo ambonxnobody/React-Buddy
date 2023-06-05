@@ -62,7 +62,7 @@ function Profile() {
                                     <div style={{ position: 'relative' }}>
                                         <input disabled={!editProfile} type={showPassword ? 'text' : 'password'} className="form-control" id="exampleFormControlInput1" placeholder={"123456789"} />
                                         {editProfile ?
-                                            <i onClick={togglePassword} className={showPassword ? "fa-solid fa-eye-slash" : "fa-solid fa-eye"} style={{ position: 'absolute', right: '10px', top: '10px', cursor: 'pointer' }}></i> :
+                                            <i onClick={togglePassword} className={!showPassword ? "fa-solid fa-eye-slash" : "fa-solid fa-eye"} style={{ position: 'absolute', right: '10px', top: '10px', cursor: 'pointer' }}></i> :
                                             null
                                         }
                                     </div>
@@ -74,7 +74,7 @@ function Profile() {
                                     <div style={{ position: 'relative' }}>
                                         <input disabled={!editProfile} type={showConfirmPassword ? "text" : "password"} className="form-control" id="exampleFormControlInput1" placeholder={"123456789"} />
                                         {editProfile ?
-                                            <i onClick={toggleConfirmPassword} className={showConfirmPassword ? "fa-solid fa-eye-slash" : "fa-solid fa-eye"} style={{ position: 'absolute', right: '10px', top: '10px', cursor: 'pointer' }}></i> :
+                                            <i onClick={toggleConfirmPassword} className={!showConfirmPassword ? "fa-solid fa-eye-slash" : "fa-solid fa-eye"} style={{ position: 'absolute', right: '10px', top: '10px', cursor: 'pointer' }}></i> :
                                             null
                                         }
                                     </div>
