@@ -1,11 +1,11 @@
 import Topbar from "./Topbar"
 
-/* eslint-disable react/prop-types */ // TODO: upgrade to latest eslint tooling
+/* eslint-disable react/prop-types */
 const Layout = ({ children }) => {
     return (
         <>
-            <Topbar />
-            <main style={{ backgroundColor: "#F3F7F9", height: "94vh" }}>
+            <Topbar topbarActive={"artikel"} />
+            <main style={{ backgroundColor: "#F3F7F9" }}>
                 {children}
             </main>
         </>
