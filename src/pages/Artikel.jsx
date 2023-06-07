@@ -40,7 +40,7 @@ function Artikel() {
                 `}
             </style>
             <div className="container">
-                <img src={bullyingIllustration} alt="Bullying Illustration" style={{ minWidth: "100%" }} />
+                <img src={bullyingIllustration} alt="Bullying Illustration" style={{ width: "100%" }} />
 
                 <div className="mb-5">
                     <div className="d-flex align-items-center justify-content-between mt-5">
@@ -98,7 +98,7 @@ function Artikel() {
                 </div>
 
                 <div className="col-12 col-xl-6 text-center">
-                    <button className="btn btn-lg btn-light" style={{ minWidth: "30rem", color: "#FC4242" }}>Layanan Pelaporan</button>
+                    <button className="btn btn-lg btn-light" style={{ minWidth: "80%", color: "#FC4242" }}>Layanan Pelaporan</button>
                 </div>
             </div>
         </Layout>
