@@ -24,13 +24,6 @@ function Artikel() {
                     padding-right: 1rem;
                 }
 
-                // @media (max-width: 576px) {
-                //     .own-container {
-                //         padding-left: 1rem;
-                //         padding-right: 1rem;
-                //     }
-                // }
-
                 @media (min-width: 1200px) {
                     .own-container {
                         padding-left: 5rem;
@@ -52,11 +45,11 @@ function Artikel() {
                 <div className="mb-5">
                     <div className="d-flex align-items-center justify-content-between mt-5">
                         <div className="d-flex align-items-center">
-                            <div className="d-flex align-items-center me-5">
+                            <div className="d-flex align-items-center me-5" style={{ cursor: "pointer" }}>
                                 <img src="https://dummyimage.com/1000x1000/0086CF/dee2e6&text=P" alt="mdo" width="32" height="32" className="rounded-circle me-3" />
                                 <p className="mb-0 fw-medium">Putri Tanjung</p>
                             </div>
-                            <p className="text-primary mb-0 fw-medium">Bullying</p>
+                            <p className="text-primary mb-0 fw-medium" style={{ cursor: "pointer" }}>Bullying</p>
                         </div>
 
                         <div className="d-flex flex-end align-items-center">

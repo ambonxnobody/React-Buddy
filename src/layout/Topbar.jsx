@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import buddy from "../assets/buddy.png";
 
 function Topbar(props) {
+
     return (
         <header className="d-flex flex-wrap align-items-center justify-content-center justify-content-md-between py-3 border-bottom" style={{ paddingLeft: "5rem", paddingRight: "5rem" }}>
             <div className="col-md-3 mb-2 mb-md-0">
